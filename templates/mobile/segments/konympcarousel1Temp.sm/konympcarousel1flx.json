@@ -1,0 +1,51 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "97%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sef329cdad9047aabcca212fdb572120",
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "imgSlide"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "konympcarousel1flxController"
+        }
+    },
+    "enablescrolling": true,
+    "id": "konympcarousel1flx",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "cdf708ae62cb433ab981c8d978ccb1b8",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "konympcarousel1Temp",
+    "pf": "konympcarousel1Temp",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

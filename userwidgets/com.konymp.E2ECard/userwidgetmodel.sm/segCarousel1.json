@@ -1,0 +1,142 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segCarousel1",
+    "ide_onSwipe": "AS_Segment_cc4a496983724c0d906f04a301e2f1e7",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "ueab6424545e4da3bdb753c166e57af8",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgSlide": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "kony_mp_carousel1_slides1.png"
+                }
+            },
+            {
+                "imgSlide": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "kony_mp_carousel1_slides2.png"
+                }
+            },
+            {
+                "imgSlide": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "kony_mp_carousel1_slides3.png"
+                }
+            },
+            {
+                "imgSlide": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "kony_mp_carousel1_slides4.png"
+                }
+            }
+        ],
+        "rowTemplateId": "e4d823a0c5824e858c8d894355ee238c",
+        "rowtemplate": "konympcarousel1flx",
+        "sectionHeaderTemplateId": null,
+        "selectionBehaviorConfig": null,
+        "widgetdatamap": {
+            "imgSlide": "imgSlide",
+            "konympcarousel1flx": "konympcarousel1flx"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": false,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "E2ECard",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 3,
+    "rowfocusskin": "sc32c06916c647298b49a404c650b006",
+    "rowskin": "s98aee10ea85452d939c6ff850b8b120",
+    "rowtemplate": "konympcarousel1flx",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s8542d6bf0de404cb7fc68f84c07db20",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 750,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "imgSlide": "imgSlide",
+        "konympcarousel1flx": "konympcarousel1flx"
+    },
+    "zindex": 2
+}

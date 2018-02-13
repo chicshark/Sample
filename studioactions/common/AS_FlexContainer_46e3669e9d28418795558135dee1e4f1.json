@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_46e3669e9d28418795558135dee1e4f1": {
+        "id": "AS_FlexContainer_46e3669e9d28418795558135dee1e4f1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a1f42158865f4754b0f664a6b6b6fc7a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.brwsrIdentity.htmlString = \"<html>Please wait !!</html>\"\nthis.resetPosition();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,646 @@
+{
+    "classname": "Login",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "kuid": "i58fce6312ad4e7d9290e3233876eac7",
+                    "paramList": [
+                        {
+                            "name": "action"
+                        }
+                    ],
+                    "propertyKey": "setSuccessCallback",
+                    "pw": {
+                        "displayName": "setSuccessCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "gf0d0f6d06454329b0b0779035afce1c",
+                    "paramList": [
+                        {
+                            "name": "action"
+                        }
+                    ],
+                    "propertyKey": "setFailureCallback",
+                    "pw": {
+                        "displayName": "setFailureCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "g699acad1a144063a0d910020ec96a7d",
+                    "paramList": [
+                        {
+                            "name": "mbaasConfiguration"
+                        }
+                    ],
+                    "propertyKey": "setMBaaSConfiguration",
+                    "pw": {
+                        "displayName": "setMBaaSConfiguration",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "cf30f727816d453191f3df739d9986c1",
+                    "paramList": [
+                        {
+                            "name": "groupRoleMapping"
+                        }
+                    ],
+                    "propertyKey": "setGroupRoleMapping",
+                    "pw": {
+                        "displayName": "setGroupRoleMapping",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "jb19ef40ad9f4d8c9704253cea07bf7d",
+                    "paramList": [
+                        {
+                            "name": "user"
+                        }
+                    ],
+                    "propertyKey": "setLoginUser",
+                    "pw": {
+                        "displayName": "setLoginUser",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "bf2fdc79c148442c866b5231b3088760",
+                    "paramList": [
+                        {
+                            "name": "serviceId"
+                        }
+                    ],
+                    "propertyKey": "setLoginAuthenticationServiceId",
+                    "pw": {
+                        "displayName": "setLoginAuthenticationServiceId",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "he1206233b08438681bd730550f54c16",
+                    "paramList": [
+                        {
+                            "name": "serviceId"
+                        }
+                    ],
+                    "propertyKey": "setRefreshAuthenticationServiceId",
+                    "pw": {
+                        "displayName": "setRefreshAuthenticationServiceId",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "f3ebee689b5c459b9f177a77a74d15a6",
+                    "paramList": [
+                        {
+                            "name": "serviceId"
+                        }
+                    ],
+                    "propertyKey": "setAdditionalAuthenticationServiceId",
+                    "pw": {
+                        "displayName": "setAdditionalAuthenticationServiceId",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "hd050895515f44d79a33784c5fa9a192",
+                    "paramList": [
+                        {
+                            "name": "serviceId"
+                        }
+                    ],
+                    "propertyKey": "setAdditionalUserInfoServiceId",
+                    "pw": {
+                        "displayName": "setAdditionalUserInfoServiceId",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "g4d905b203234bf3910e8f0179725808",
+                    "paramList": [
+                        {
+                            "name": "boolean"
+                        }
+                    ],
+                    "propertyKey": "setPersistRefreshToken",
+                    "pw": {
+                        "displayName": "setPersistRefreshToken",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "e22f5d8e2fe243ff83542f8fd0af84ef",
+                    "paramList": [
+                        {
+                            "name": "action"
+                        }
+                    ],
+                    "propertyKey": "setRefreshTokenRetrievalFunction",
+                    "pw": {
+                        "displayName": "setRefreshTokenRetrievalFunction",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "f0af845f4f544ffaace56fe8dbd8e48d",
+                    "paramList": [
+                        {
+                            "name": "action"
+                        }
+                    ],
+                    "propertyKey": "setRefreshTokenStoreFunction",
+                    "pw": {
+                        "displayName": "setRefreshTokenStoreFunction",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "b4b5e75c0e8742b78b8d138e77c00c2f",
+                    "paramList": [],
+                    "propertyKey": "getRefreshToken",
+                    "pw": {
+                        "displayName": "getRefreshToken",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "ee8d6c8d8c714b5b87dd78bbe90736c0",
+                    "paramList": [],
+                    "propertyKey": "getToken",
+                    "pw": {
+                        "displayName": "getToken",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "b2f4738f6d6c4a0e98c00ced821fd1ff",
+                    "paramList": [],
+                    "propertyKey": "getProfile",
+                    "pw": {
+                        "displayName": "getProfile",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "c6a4d575574e475e8279e14d207faf70",
+                    "paramList": [],
+                    "propertyKey": "getUser",
+                    "pw": {
+                        "displayName": "getUser",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "ccdfdaedad30431096a3d7808c512bf7",
+                    "paramList": [],
+                    "propertyKey": "getClient",
+                    "pw": {
+                        "displayName": "getClient",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "fb06c4a6a1c741978895a52cc3d4c548",
+                    "paramList": [
+                        {
+                            "name": "token"
+                        }
+                    ],
+                    "propertyKey": "setRefreshToken",
+                    "pw": {
+                        "displayName": "setRefreshToken",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "ba6b0e5999b84c7699b6910ad30ad4f3",
+                    "paramList": [
+                        {
+                            "name": "token"
+                        }
+                    ],
+                    "propertyKey": "setToken",
+                    "pw": {
+                        "displayName": "setToken",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "e3f1a490c0c24442a5b2219c58139ddf",
+                    "paramList": [],
+                    "propertyKey": "isMBaaSInitialized",
+                    "pw": {
+                        "displayName": "isMBaaSInitialized",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "f72aaa261f514b08940802ca5524ba89",
+                    "paramList": [],
+                    "propertyKey": "isAuthenticated",
+                    "pw": {
+                        "displayName": "isAuthenticated",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "g56de9b0ae3d4ba2b9712509c985a773",
+                    "paramList": [],
+                    "propertyKey": "isAuthorized",
+                    "pw": {
+                        "displayName": "isAuthorized",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "a2b887242da14d35a31973958d95a837",
+                    "paramList": [],
+                    "propertyKey": "isNetworkAvailable",
+                    "pw": {
+                        "displayName": "isNetworkAvailable",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "ef11a84484d54970afc2a9858aa7230f",
+                    "paramList": [],
+                    "propertyKey": "logout",
+                    "pw": {
+                        "displayName": "logout",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "f9758d282ae2402b8f03d2975705fbb1",
+                    "paramList": [],
+                    "propertyKey": "getConnectionHandler",
+                    "pw": {
+                        "displayName": "getConnectionHandler",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "eca77178554444a48afb61f1fba26adb",
+                    "paramList": [],
+                    "propertyKey": "setLoginAuthenticationServiceTypeToNative",
+                    "pw": {
+                        "displayName": "setLoginAuthenticationServiceTypeToNative",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                },
+                {
+                    "kuid": "cadf1d61c3e74effbb8054044bc6a3c9",
+                    "paramList": [],
+                    "propertyKey": "setLoginAuthenticationServiceTypeToOAuth2",
+                    "pw": {
+                        "displayName": "setLoginAuthenticationServiceTypeToOAuth2",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a624ed65e06744afa4020a16bd53f4fc",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "cee9ae3060134dacaf54f2bfef056899",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "loginButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Login Button Text",
+                        "srcWidget": "btnLogin",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "btnLogin"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "cea5b080db3a42b48469ccc58989c53c",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "headerLogoSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Header Logo Source",
+                        "srcWidget": "imgLoginLogoHeader",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "imgLogoHeader"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "a5c2bc0523d242ea982cf0e397b77bd2",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 3,
+                    "propertyKey": "backButtonSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Back Button Source",
+                        "srcWidget": "imgLoginBack",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "imgBack"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "e6c0b0d6339c4815a69fef77522b1ebd",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 4,
+                    "propertyKey": "backgroundImageSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Background Image Source",
+                        "srcWidget": "imgLogin",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "imgLogin"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "c92d737e1fa14890b05f050dc96d1e8a",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 5,
+                    "propertyKey": "blurredBackgroundImageSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Blurred Background Image Source",
+                        "srcWidget": "imgLoginBlurred",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "imgLoginBlurred"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "dae84467761b4bb98f7d2e002cfadb04",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "errorUsername",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Error text for Username",
+                        "srcWidget": "lblUsernameError",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b7beac1bd668479290da1b2e694cdb62"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "if5a0b99492948d1a81ec21dec2a5d44",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "errorPassword",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Error text for Password",
+                        "srcWidget": "lblPasswordError",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e9e4ca282ca9408d97aa245118822c86"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "d9a505d952f24589970dd4bea592512e",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 8,
+                    "propertyKey": "placeholderUsername",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Placeholder Username",
+                        "srcWidget": "txtUsername",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "eccf553625b54266b865af8a62eba040"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "j6bf62bf7a894699b6837b9563d1b768",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 9,
+                    "propertyKey": "placeholderPassword",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Placeholder Password",
+                        "srcWidget": "txtPassword",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "fccd60d08f5c4f3091f8f5dc041d9797"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "e137d4ebfcc148da9f401ba8798f7045",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 10,
+                    "propertyKey": "forgotPasswordText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Forgot Password Text",
+                        "srcWidget": "btnForgotPassword",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "aed83f23f07945eea804064f3dd2ccfb"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "f9e0c25ddf074e5aae40468ac90f2e23",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 11,
+                    "propertyKey": "footerImageSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Footer Image Source",
+                        "srcWidget": "imgLoginFooter",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "imgFooter"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.engie",
+    "version": "1.0.0"
+}

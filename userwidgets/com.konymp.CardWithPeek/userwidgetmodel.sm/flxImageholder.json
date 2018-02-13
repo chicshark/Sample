@@ -1,0 +1,62 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "36%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s44e23a836b64d9383a71e593a3e5775",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flx1",
+        "flx2",
+        "flx3",
+        "flx4"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxImageholder",
+    "ide_onTouchEnd": "AS_FlexContainer_b6f078d2abae478fa1d56b88775d4087",
+    "ide_onTouchStart": "AS_FlexContainer_af76b314344c4d37a2949de468b46b2a",
+    "info": null,
+    "isvisible": true,
+    "kuid": "fac99b0a26c5436f84c9d53825948d17",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "CardWithPeek",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 2
+}

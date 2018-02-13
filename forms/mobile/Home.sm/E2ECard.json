@@ -1,0 +1,353 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s7fe4b13287a49c89dbbba930bd9460b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "E2ECard": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "bf3a0c8f635246bc974b7fb64ce15a7f",
+                "srcKUID": "ua64d6f387f54e2e978f28b494cd2082",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            }
+        },
+        "flxBody": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef0d53ad8b5e49daa20950fd9cf83289",
+                "srcKUID": "ub5e97d6b74e4e6aab43041847777088",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxBookHotel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jd35ec17680c44bfb953841c938aa036",
+                "srcKUID": "ub6a201e7bde45e686b824864366d13a",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDisGuests": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f405d5ef7cf74b13bcce47243bbe2a9c",
+                "srcKUID": "u78e2b17206f469a83bd6ba67735c297",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxGreatView": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b4f38d4ea28847b28fc823f309612a7f",
+                "srcKUID": "u20c36c54972406b93ce0630e057385b",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxKingSizeBed": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cd1e9a5c3efa42bdb02c697b97e0229f",
+                "srcKUID": "u35552bcddef4e35a3b84cd17133ee17",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxParking": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "baf00ed355424ecc92cc61778f0bab2c",
+                "srcKUID": "ube788ff33be4914bd01ed52e1a55429",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxStar": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aae1b04590754721be948830522dc27e",
+                "srcKUID": "u34d965cf1a54720b9789608ad7f7a50",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxTaxiBooking": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gc049c1f6efe494f9a39cc10c7816875",
+                "srcKUID": "ufb41d97b79a4219b5263820a7bbee7f",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxWifi": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f75e5a48bc7849488a9c004f75f9aaf0",
+                "srcKUID": "u7cf460eec1a48ff91a6d23ef553cdf3",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgDisGuests": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e7ca7fa27be44157960a14eaf9696ef3",
+                "srcKUID": "ud5e35922baf4bde93e50911fa90c1fc",
+                "wType": "Image"
+            }
+        },
+        "imgGreatView": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f395d393a2e840c9a19c8e01363d8643",
+                "srcKUID": "u7eea072e05248f89322505715c76769",
+                "wType": "Image"
+            }
+        },
+        "imgKingSizeBed": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a1fe00296b7a45d481c7ce09208bb15d",
+                "srcKUID": "uf0754a80dd3403e985673bb8a5926db",
+                "wType": "Image"
+            }
+        },
+        "imgLocation": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d5f68c0455244eb0abd6cde83c62bfeb",
+                "srcKUID": "uca009891dce43f8bd10a8a6d047a0b8",
+                "wType": "Image"
+            }
+        },
+        "imgParking": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e70921f9dfb64004a1c6c6f0a094201a",
+                "srcKUID": "ua25e14a07bc44f594f7bc95424e290b",
+                "wType": "Image"
+            }
+        },
+        "imgStar1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jc1fc159405547c08045c9852c86a818",
+                "srcKUID": "uf5751d6eb0d485fad4857ba4f0e5ad2",
+                "wType": "Image"
+            }
+        },
+        "imgStar2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j0331917ec2f44248be5872a6773f304",
+                "srcKUID": "u4525cdedcbc4d8d9a6ae77eeb69b060",
+                "wType": "Image"
+            }
+        },
+        "imgStar3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e6c58ccd8bc74041b8310c37ccd31f57",
+                "srcKUID": "u5f2289a55da4c0d838f1113bd9af0e0",
+                "wType": "Image"
+            }
+        },
+        "imgStar4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "de1a2afa6a04436aae382931a37191e6",
+                "srcKUID": "u9d7590f12b54b9eb73d083d3d9b7ae6",
+                "wType": "Image"
+            }
+        },
+        "imgStar5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h1f6a00ce7f94aeb92b9cb76e238d5e2",
+                "srcKUID": "ueb7dd0d8f774ea5a74b916e0cafc2f7",
+                "wType": "Image"
+            }
+        },
+        "imgTaxiBooking": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g274364c7249419082273fcebb9b9596",
+                "srcKUID": "uef3bb86f0cf442c930125c2479da715",
+                "wType": "Image"
+            }
+        },
+        "imgWifi": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fd9a1a6bd5f24572814a80d65440e4c6",
+                "srcKUID": "u723643fb8d74336802d4328f6fd55c2",
+                "wType": "Image"
+            }
+        },
+        "lblButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cb415d59ac46458e8476600a7c2fe582",
+                "srcKUID": "u563dff4cc314c7daca671ce693f2a64",
+                "wType": "Label"
+            }
+        },
+        "lblDisGuests": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j2dbe044de1c4b25ba5a1222685bb22c",
+                "srcKUID": "udedf7afef1144fe8b9db02258c59154",
+                "wType": "Label"
+            }
+        },
+        "lblGreatView": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f7c3e8685ca2428d95c0b432d37319a9",
+                "srcKUID": "u1f838225dfb47e8a859a3bf30072aae",
+                "wType": "Label"
+            }
+        },
+        "lblHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f5add06bd0974ccba1574ac2a803d8dd",
+                "srcKUID": "u99f7e28fa3b498e86897864c4f120fd",
+                "wType": "Label"
+            }
+        },
+        "lblKingSizeBed": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g41a840c1e614efca9a61fa521707a8a",
+                "srcKUID": "uabab35ab1ed4d2c9a042e9e4647c4a6",
+                "wType": "Label"
+            }
+        },
+        "lblLocation": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b49202d77a554f449c9e59e7eb81e8e7",
+                "srcKUID": "u68e25a1bc734c05a6d856c358c1bdc3",
+                "wType": "Label"
+            }
+        },
+        "lblParking": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bf0faf258d7a475f95cd805c62f7b6e0",
+                "srcKUID": "u619e904c60940929687b68c3e0e9a7c",
+                "wType": "Label"
+            }
+        },
+        "lblPrice": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ac2898ee1e0d47488f032526c53de460",
+                "srcKUID": "uc77b6be61174291851703a4deddcfcc",
+                "wType": "Label"
+            }
+        },
+        "lblServicesIncluded": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bf6c699430fe44e88ec371f46090bd9c",
+                "srcKUID": "u94e7abab5dc4a819a39bb0779491169",
+                "wType": "Label"
+            }
+        },
+        "lblTaxiBooking": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ccdfc56619464ad58edb96bc94e076c1",
+                "srcKUID": "ubb35fa6459a4db18b6b682e80d12f74",
+                "wType": "Label"
+            }
+        },
+        "lblWifi": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ed3eb3f5fa194ccbb37003306ebf0f1c",
+                "srcKUID": "u3367fb6e7f54987a0a2c3e3c4284f58",
+                "wType": "Label"
+            }
+        },
+        "mapView": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a4dd7433bfe145578e1757b409658848",
+                "srcKUID": "u9216d463a5f413d81d1e959404072a8",
+                "wType": "Map"
+            }
+        },
+        "segCarousel1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d6f7f88500b647458e9f046f6df93483",
+                "srcKUID": "ueab6424545e4da3bdb753c166e57af8",
+                "wType": "Segment"
+            }
+        }
+    },
+    "id": "E2ECard",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "bf3a0c8f635246bc974b7fb64ce15a7f",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "Home",
+    "pf": "Home",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "ua64d6f387f54e2e978f28b494cd2082",
+    "wType": "UserWidgetInstance"
+}

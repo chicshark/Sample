@@ -1,0 +1,110 @@
+{
+    "classname": "facebooklogin",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ce16952f3e46455ba2769cb26c0c1ca5",
+                    "paramList": [
+                        {
+                            "name": "response"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onLoginSuccess",
+                    "pw": {
+                        "displayName": "onLoginSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e62925404681454bb75088192dc04b1e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i6f85435fa314a208ab4cda97ad53fcc",
+                    "paramList": [
+                        {
+                            "name": "response"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onLoginFailure",
+                    "pw": {
+                        "displayName": "onLoginFailure",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e62925404681454bb75088192dc04b1e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f0fe2bf52fe742c2a1c7f56487d65cdc",
+                    "originalPropertyKey": "imageScaleMode",
+                    "propertyIndex": 1,
+                    "propertyKey": "logoScaleMode",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Icon Scale Mode",
+                        "srcWidget": "imgOauth",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "g5c8875bc132439bb2fa4ecf6e2fb0d9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ea6707227fc04260b85c4984697db0b2",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "iconSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Icon Source",
+                        "srcWidget": "imgOauth",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "g5c8875bc132439bb2fa4ecf6e2fb0d9"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

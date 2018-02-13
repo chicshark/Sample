@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizMap",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5.50%"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "45.70%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "calloutTemplateId": null,
+    "calloutwidth": 80,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "defaultpinimage": "kony_mp_carousel2_pin.png",
+    "id": "mapView",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c6e1c1fef1c64ddb86b8afd85c098069",
+    "locationdata": [],
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "name": "kony.ui.Map",
+    "parent": "CardWithPeek",
+    "pf": "userwidgetmodel",
+    "provider": "google",
+    "screenlevelwidget": false,
+    "wType": "Map",
+    "zindex": 5,
+    "zoomlevel": 4
+}

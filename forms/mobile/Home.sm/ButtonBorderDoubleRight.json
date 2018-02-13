@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "s4fdd45d7372452d8f18eace6c7e866f",
+    "_text_": "Button 2",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0fb9562105140c3b64f09729b2cea7c",
+    "id": "ButtonBorderDoubleRight",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d4ff235475714d21907d7c9a4859d59c",
+    "name": "kony.ui.Button",
+    "parent": "ContainerButtonBorderRight",
+    "pf": "Home",
+    "wType": "Button",
+    "zindex": 1
+}

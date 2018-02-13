@@ -1,0 +1,129 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sf66198532ca434f9c1594dc564d1ebe",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "PassBkWallet": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "e9f2c1be67ef4bf0bae94fb37b47c69c",
+                "srcKUID": "ed099af5178f41cf93038eb23f547f60",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            }
+        },
+        "imgCard1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i1fdc836f5504ed8a1adb5e5a1325936",
+                "srcKUID": "f41f11b41bb6420eae102874de41b664",
+                "wType": "Image"
+            }
+        },
+        "imgCard2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eba65916f5d84bd39ccbe6364ef7f8e1",
+                "srcKUID": "e06f047f6f5041d7aac6e9e7b028df34",
+                "wType": "Image"
+            }
+        },
+        "imgCard3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i21fe278fc9d4daf8f7fe379b6a0e8eb",
+                "srcKUID": "hb7de1cb5e9c49fbb2ce39d948c027fa",
+                "wType": "Image"
+            }
+        },
+        "imgCard4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f9df5d437bf24040bb0b7e439c62f43d",
+                "srcKUID": "de760a64f83d44d9920d0533a9e4216b",
+                "wType": "Image"
+            }
+        },
+        "imgCard5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i8ded9dcc66a4a8a95e5352c1d481963",
+                "srcKUID": "j498a4b562904d5eb8c0a26efa37ce51",
+                "wType": "Image"
+            }
+        },
+        "imgCard6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bee5e4643ad44e4dafe195b1b392d5ec",
+                "srcKUID": "f90dda8260eb4595b0f9d8afb0bc7741",
+                "wType": "Image"
+            }
+        }
+    },
+    "id": "PassBkWallet",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "e9f2c1be67ef4bf0bae94fb37b47c69c",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "Home",
+    "pf": "Home",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "ed099af5178f41cf93038eb23f547f60",
+    "wType": "UserWidgetInstance"
+}

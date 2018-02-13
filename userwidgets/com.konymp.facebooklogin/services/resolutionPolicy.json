@@ -1,0 +1,1 @@
+{"policyScope":"local","policyInfo":"{\"identitySvcs\":[{\"name\":\"reusableFacebookLogin\",\"version\":\"1.0\",\"type\":\"idprovider\",\"conflictType\":\"name\",\"supportedConflictResolutionPolicies\":[\"override\",\"reuse\"],\"conflictResolutionPolicy\":\"override\"}],\"middlewareSvcs\":[],\"dataAdapters\":[],\"logicPackages\":[],\"customCodeResources\":[]}"}
